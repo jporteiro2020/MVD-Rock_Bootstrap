@@ -1,0 +1,258 @@
+/*Aquí se establece el color que tendrá el menú de la página.*/
+
+#menu{
+    background-color: black;
+}
+
+/*Se establece el color del borde que rodea a las imágenes de toda la página.*/
+.img-thumbnail{
+    border-color: red;
+}
+
+/*Se establece el tamaño y el estilo de la caja contenedora en la sección de
+información.*/
+
+#seccionInformacion{
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+/*Aquí se indica el color y la ubicación de la caja contenedora de consideraciones.*/
+
+#recuadro{
+    background-color: red;
+    float: right;
+}
+
+/*Aquí se establece el tamaño del texto h2 en la caja contenedora de consideraciones.*/
+
+#recuadro h2{
+    font-size: 20px;
+}
+
+/*Se establece el tamaño del texto para el texto h3.*/
+
+#recuadro h3{
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+/*Se indica el tamaño del texto para el párrafo en la sección consideraciones.*/
+
+#recuadro p{
+    font-size: 13px;
+}
+
+/*Aquí se indica el estilo, color y ubicación del menú de la página.*/
+
+#menu-grande a.nav-link{
+    background-color: red;
+    color: white;
+    font-weight: bold
+}
+#menu-grande a:hover{
+    background-color: #fd7e7e;
+}
+#menu-grande .nav-link{
+    margin:5px
+}
+#menu-grande a.active{
+    background-color: #c60202;
+}
+#menu-mvdrock{
+    background-color: black;
+}
+
+/*Se indica el tamaño de la imagen correspondiente al menú.*/
+
+#menu-mvdrock img{
+    height: 40px
+}
+
+/*Aquí se establece el color del menú principal.*/
+
+#menuprincipal{
+    background-color: black;
+}
+
+/*Aquí se indica que el estilo de la barra información.*/
+
+.barra-tituloH1{
+    background-color: #ff7000;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/*Aquí se indica que el estilo para h1 de la barra información.*/
+
+.barra-tituloH1 h1{
+    font-size: 35px;
+    margin: 0 auto;
+    color: white;
+}
+
+/*Aquí se indica que el estilo, ubicación y texto de la sección detalles.*/
+
+#seccionDetalles{
+    margin-top: 10px;
+}
+
+#seccionDetalles article h2, #seccionDetalles article p{
+    margin-left: 5px;
+}
+
+#seccionDetalles article h2{
+    font-size: 25px;
+    height: 40px;
+}
+
+#seccionDetalles article p{
+    font-size: 10px;    
+}
+
+#seccionDetalles article img{
+    height: 150px;
+    width: 150px;
+}
+
+#detalles{
+    height: 20px;
+    margin-top: 10px;
+}
+
+/*Aquí se indica que el estilo del texto en la barra información.*/
+
+#textInformacion{
+    font-size: 15px;
+}
+
+/*Aquí se indica que el estilo de los articulos en la sección detalles.*/
+
+.seccionDetalles-Articulos{
+    float: right;
+}
+
+/*Aquí se establece ubicación y estilo de la sección tabla.*/
+
+#seccionTablas{
+    margin-top: 10px;
+}
+
+.table-hover tbody:hover{
+    background-color: #ff7000;
+}
+
+/*Se establece la ubicación de la sección inscripción a sorteo.*/
+
+#InscripcionSorteo{
+ margin-top: 15px;   
+}
+
+#BTNInscribirme{
+    float: right;
+    margin-top: 15px;
+}
+
+/*Aquí se establece el estilo de la caja contenedora para la sección de novedades.*/
+
+#seccionnews{
+    margin-top: 10px;
+}
+
+/*Aquí se establece el estilo de la caja contenedora y el texto descriptivo
+de la primeras 4 imágenes para la sección de novedades.*/
+
+#seccionNovedades{
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 150px;
+    
+}
+
+#seccionNovedades article{   
+    float: left;
+}
+
+#seccionNovedades article h2{
+    font-size: 10px;
+    text-align: left;
+}
+
+#seccionNovedades article img{
+    height: 150px;
+    width: 170px;
+    margin-top: 10px;
+}
+
+.seccionDetalles-Articulos2{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/*Aquí se establece el estilo de la caja contenedora y el texto descriptivo
+de la últimas 2 imágenes para la sección de novedades.*/
+
+#seccionNovedades2{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+#seccionNovedades2Art1{
+    float: left;
+}
+
+#seccionNovedades2Art2{
+    float: right;
+}
+
+#seccionNovedades2 article h2, #seccionNovedades2 article p{
+    font-size: 10px;    
+    float: left;
+    
+}
+
+#seccionNovedades2 article img{
+    height: 250px;
+    width: 400px;
+}
+.seccionDetalles-Articulos3{
+    margin-top: 10px;
+    font-size: 10px;  
+    float: left;
+}
+
+#seccionNovedades2 article h2, #seccionNovedades2 article p{
+    font-size: 10px;    
+    float: left;
+}
+
+/*Se le da formato al "botón" para volver al inicio de la página*/
+#back-to-top{
+    width: 50px;
+    height: 50px;
+    background: url("../img/pointing-up-arrow.svg");
+    bottom: 60px;
+    right: 20px;
+    display: inline;
+    z-index: 100;
+    position: fixed;
+    opacity: 0.4;
+    border: none;
+    
+}
+
+/*Aquí se establece el estilo para el pie de página*/
+
+footer{
+    background-color: #c60202;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    font-size: 10px;
+    position: absolute;
+}
+
+
